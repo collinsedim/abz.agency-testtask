@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,jpg,jpeg}"],
   theme: {
     extend: {
       backgroundImage: {
-        heroBg: "url(./public/static/images/hero-bg.jpeg)",
+        heroBg: "url(./src/components/assets/hero-bg.jpeg)",
       },
     },
   },
